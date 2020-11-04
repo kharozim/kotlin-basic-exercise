@@ -1,7 +1,7 @@
 package kotlin_basic_exercise
 
 fun main() {
-    scan(1, 10)
+    scan(1, 1000)
 }
 
 fun scan(awal: Int, akhir: Int) {
@@ -14,6 +14,8 @@ fun scan(awal: Int, akhir: Int) {
                 result = "$i Ganjil kelipatan tujuh"
             } else result = "$i ganjil"
 
+        } else if (i % 100 == 0){
+            result = "$i Kelipatan 100"
         } else {
             result = "$i Genap"
             if (i % 8 == 0) {

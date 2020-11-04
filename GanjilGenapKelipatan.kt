@@ -8,7 +8,6 @@ fun scan(awal: Int, akhir: Int) {
     var result :String
     for (i in awal..akhir) {
 
-
         //cara pertama
         if (i % 2 != 0) {
             if (i % 7 == 0) {
